@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.bs_header {
+    background: #2628dd;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #030101;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2628dd;
+    color: white;
+}
+
+
+/* Agrega estos estilos al final del archivo existente */
+
+#comentario-form {
+    margin: 20px 0;
+}
+
+#comentario-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#comentario-form input, #comentario-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#comentario-form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #2628dd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#comentarios-lista {
+    margin-top: 20px;
+}
+
+#comentarios-lista ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+

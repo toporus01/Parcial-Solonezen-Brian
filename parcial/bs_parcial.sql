@@ -1,0 +1,17 @@
+CREATE DATABASE bs_parcial_blog;
+
+USE bs_parcial_blog;
+
+CREATE TABLE bs_entradas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    descripcion TEXT NOT NULL,
+    fecha DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE bs_comentarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    comentario TEXT NOT NULL,
+    fecha DATETIME DEFAULT CURRENT_TIMESTAMP
+);
